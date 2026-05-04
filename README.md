@@ -1,2 +1,1 @@
-# CTA200_2026
-CTA200H course
+# CTA200 2026

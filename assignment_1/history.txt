@@ -1,1 +1,424 @@
-
+    1  /cita/local/bin/passwd
+    2  ls
+    3  list
+    4  cd
+    5  cd ..
+    6  ls
+    7  cd schen
+    8  ls
+    9  cd /cita/local/bin/passwd
+   10  cd ..
+   11  ls
+   12  cd cita
+   13  ls
+   14  cd local
+   15  ls
+   16  cd bin
+   17  ls
+   18  cd passwd
+   19  cd ..
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd usr
+   24  ls
+   25  cd local
+   26  ls
+   27  cd ..
+   28  hello
+   29  ls
+   30  cd desktop
+   31  cd Desktop
+   32  ls
+   33  pwd
+   34  mkdir test
+   35  cd test
+   36  popd
+   37  cd ..
+   38  pwd
+   39  pushd
+   40  pushd test
+   41  pwd
+   42  popd
+   43  pwd
+   44  cd ..
+   45  pushd Desktop
+   46  cd test
+   47  pwd
+   48  popd
+   49  pwd
+   50  cd Desktop
+   51  rm test
+   52  rmdir test
+   53  history
+   54  echo $0
+   55  cd /mnt
+   56  pwd
+   57  ls
+   58  cd scratch-lustre
+   59  ls
+   60  cd schen
+   61  ls
+   62  cd ~
+   63  ls
+   64  pwd
+   65  $scratch
+   66  pwd
+   67  cd /mnt/scratch-lustre/schen
+   68  pwd
+   69  mkdir test
+   70  ls
+   71  rmdir test
+   72  ls
+   73  cd ..
+   74  ls
+   75  cd joelyma
+   76  ls
+   77  cd ..
+   78  cd schen
+   79  ls
+   80  cd /mnt/scratch-lustre/
+   81  ls
+   82  cd rhlozek
+   83  ls
+   84  pwd
+   85  cd ..
+   86  cd schen
+   87  cd mmoretti
+   88  cd ..
+   89  cd mmoretti
+   90  ls
+   91  cd CTA200_2025
+   92  ls
+   93  cd ..
+   94  pwd
+   95  cd schen
+   96  mkdir CTA200_2026
+   97  ls
+   98  cd ..
+   99  pwd
+  100  cd murray
+  101  ls
+  102  less
+  103  less bin
+  104  pwd
+  105  cd ..
+  106  cd schen
+  107  ls
+  108  cd schen
+  109  ls
+  110  Host cita_gw
+  111  git clone https://github.com/ShuoChen777/example
+  112  ls
+  113  rm -rf example
+  114  cd /mnk
+  115  cd /mnd
+  116  cd /mnt
+  117  ls
+  118  cd scratch-lustre/schen
+  119  git clone https://github.com/ShuoChen777/example
+  120  rm -rf example
+  121  ls
+  122  rm -rf CTA200_2026
+  123  mkdir CTA200_2026
+  124  cd CTA200_2026
+  125  mkdir assignment_1
+  126  pwd
+  127  cd ..
+  128  cd murray
+  129  ls
+  130  find Hello_world.c
+  131  find Hello
+  132  find Hello_world.py
+  133  cd ..
+  134  find Hello_world.c
+  135  ls
+  136  cd murray
+  137  ls
+  138  cd test
+  139  ls
+  140  cd ..
+  141  new
+  142  help
+  143  cd ..
+  144  ls
+  145  cd schen
+  146  cd CTA200_2026
+  147  ls -al ~./ssh
+  148  ls -al ~/.ssh
+  149  ssh-keygen -t ed25519 -C "cshuo777@gmail.com"
+  150  ls -al ~/.ssh
+  151  ls -al ~/schen/.ssh
+  152  cd ~/.ssh
+  153  ls
+  154  cat id_ed25519.pub
+  155  ssh-keygen -t rsa -b 2048 -C "This is my gitlab key"
+  156  ls
+  157  cat id_rsa.pub
+  158  cd /mnt/scratch-lustre/schen
+  159  ls
+  160  ssh schen@cosmo9.cita.utoronto.ca
+  161  cd /mnt/scratch-lustre/schen
+  162  ls
+  163  cd ~
+  164  ls
+  165  cd Desktop
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd /mnt
+  170  ls
+  171  cd scratch-lustre
+  172  ls
+  173  /cita/local/bin/passwd
+  174  exit
+  175  cita/local/bin/passwd
+  176  cita/bin/local/passwd
+  177  /cita/local/bin/passwd
+  178  exit
+  179  ls
+  180  cd /mnt
+  181  ls
+  182  cd ~
+  183  pwd
+  184  cd /mnt
+  185  pwd
+  186  cd scratch-lustre
+  187  pwd
+  188  cd ~
+  189  pwd
+  190  ls
+  191  cd Desktop
+  192  pwd
+  193  ls
+  194  mkdir CTA200_2026
+  195  ls CTA200_2026
+  196  cd ~/.ssh
+  197  ls
+  198  cd ~/Desktop/CTA200_2026
+  199  git clone https://github.com/ShuoChen777/CTA200_2026
+  200  ls
+  201  cd CTA200_2026
+  202  ls
+  203  cd ..
+  204  rm -rf CTA200_2026
+  205  ls
+  206  pwd
+  207  git clone https://github.com/ShuoChen777/CTA200_2026
+  208  ls
+  209  cd CTA200_2026
+  210  ls
+  211  git remote set-url origin https://github.com/ShuoChen777/CTA200_2026
+  212  git status
+  213  quit
+  214  exit
+  215  module load python/3.10.2
+  216  jupyter notebook --port=7777 --no-browser
+  217  exit
+  218  ssh cosmo9@gw.cita.utoronto.ca
+  219  ssh cosmo9
+  220  ssh -L 2576:localhost:2576 cosmo9
+  221  ssh -L 7777:localhost:7777 cosmo9
+  222  exit
+  223  /cita/local/bin/passwd
+  224  cd /mnt
+  225  module load python/3.10.2
+  226  jupyter notebook --port=4804 --no-browser
+  227  cd ~
+  228  jupyter notebook --port=4804 --no-browser
+  229  exit
+  230  ssh -L 4804:localhost:4804 cosmo4
+  231  ssh -L 4804:localhost:4804 cosmo3
+  232  ssh -L 4804:localhost:4804 cosmo9
+  233  exit
+  234  ssh -L 4804:localhost:4804 cosmo9
+  235  module load python/3.10.2
+  236  jupyter notebook --port=4804 --no-browser
+  237  pwd
+  238  cd Desktop
+  239  ls
+  240  cd CTA200_202
+  241  cd CTA200_2026/
+  242  pwd
+  243  ls
+  244  cd ..
+  245  ls
+  246  jupyter notebook --port=4804 --no-browser
+  247  ssh -L 7777:localhost:7777 cosmo9
+  248  module load python/3.10.2
+  249  cd /mnt
+  250  jupyter notebook --port=7777 --no-browser
+  251  cd ~
+  252  jupyter notebook --port=7777 --no-browser
+  253  cd Desktop/CTA200_2026/
+  254  git status
+  255  git pull
+  256  git stash
+  257  git pull
+  258  ls
+  259  git rm -rf Hello_world.c
+  260  git rm -rf Hello_world.py
+  261  git rm -rf assignment_1
+  262  ls
+  263  rm -rf README.md 
+  264  rm -rf assignment_1/
+  265  rm -rf history.txt 
+  266  rm -rf output_c.txt 
+  267  rm -rf output_py.txt 
+  268  git status
+  269  git pull
+  270  git status
+  271  ls
+  272  cd 
+  273  pwd
+  274  cd Desktop/
+  275  cd CTA200_2026/
+  276  cd assignment_1/
+  277  ls
+  278  cd ...
+  279  cd ~
+  280  cd Desktop/CTA200_2026/
+  281  pwd
+  282  git status
+  283  git push
+  284  cd .git/config
+  285  cd .git
+  286  ls
+  287  jupyter notebook --port=7777 --no-browser
+  288  cd ..
+  289  ls
+  290  cd assignment_1/
+  291  git push
+  292  git config --global user.name "Shuo Chen"
+  293  git config --global user.email "cshuo777@gmail.com"
+  294  git config --list
+  295  git push
+  296  cd ~/.ssh
+  297  ls
+  298  cat id_rsa.pub
+  299  cd ~/Desktop/CTA200_2026/assignment_1/
+  300  git status
+  301  git push
+  302  git pull
+  303  git status
+  304  git push
+  305  git remote -v
+  306  git remote set-url origin git@github.com:ShuoChen777/CTA200_2026.git
+  307  git status
+  308  ssh -T git@github.com
+  309  cd .ssh
+  310  vid id_rsa.pub
+  311  vim
+  312  vim id_rsa.pub
+  313  eval "$(ssh-agent -s)"
+  314  ssh-add ~/.ssh/id_rsa
+  315  ssh -T git@github.com
+  316  git push
+  317  ls
+  318  cd ..
+  319  mkdir assigment_2
+  320  ls
+  321  jupyter notebook --port=7777 --no-browser
+  322  git status
+  323  git add -A
+  324  git commit -m "completed assignment 2"
+  325  git push
+  326  cd Desktop/CTA200_2026/assignment_1
+  327  find /home/murray
+  328  find /home/murray/
+  329  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  330  ls
+  331  rm -rf Hello_world.c
+  332  rm -rf Hello_world.py
+  333  cp /home/murray/tmp/Hello_world.py
+  334  cp --help
+  335  ls
+  336  cp /home/murray/tmp/Hello_world.py
+  337  exit 
+  338  /cita/local/bin/passwd
+  339  ssh -L 7777:localhost:7777 cosmo9
+  340  exit
+  341  cd Desktop/CTA200_2026/assignment_1
+  342  ls
+  343  cp /home/murray/tmp/Hello_world.py
+  344  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  345  cp /home/murray/tmp/Hello_world.py .
+  346  ls
+  347  cp /home/murray/Papers/tmp/Hello_world.c .
+  348  ls
+  349  module load /python/3.10.2
+  350  module load python/3.10.2
+  351  jupyter notebook --port:7777 --no-browser
+  352  jupyter-notebook --port:7777 --no-browser
+  353  jupyter notebook --port=7777 --no-browser
+  354  module load gcc
+  355  ls
+  356  gcc Hello_world_chen.c -o Hello_world_chen.exe
+  357  ls
+  358  git status
+  359  git add -A
+  360  git commit -m "Renamed Hello_world files and generated executable"
+  361  git push
+  362  git pull
+  363  ssh -vT git@github.com
+  364  ssh -T git@github.com
+  365  eval "$(ssh-agent -s)"
+  366  ssh-add -l -E sha256
+  367  ssh-keygen -t rsa -b 2048 -C "CTA200 gitlab key"
+  368  ssh-add -l -E sha256
+  369  ssh-add ~/.ssh/id_rsa
+  370  git status
+  371  git push
+  372  git pull
+  373  git config pull.rebase false
+  374  git pull
+  375  git status
+  376  ls
+  377  git status
+  378  git push
+  379  run Hello_world_chen.exer
+  380  run Hello_world_chen.exe
+  381  Hello_world_chen.exe
+  382  ls
+  383  ./Hello_world_chen.py
+  384  rm -rf Hello_world_chen.exe
+  385  ls
+  386  git push
+  387  git status
+  388  git add -A
+  389  git commit -m "Removed incorrect file"
+  390  git push
+  391  ls
+  392  gcc Hello_world_chen.c -o Hello_world_chen.x
+  393  ls
+  394  git add -A
+  395  git commit -m "Generated executable for Hello_world"
+  396  git push
+  397  python3 Hello_world_chen.py
+  398  Hello_world_chen.x
+  399  ./Hello_world_chen.x
+  400  vi Hello_world_chen.py
+  401  git status
+  402  python3 Hello_world_chen.py
+  403  vi Hello_world_chen.py
+  404  git status
+  405  git add -A
+  406  git commit -m "File now prints name and language"
+  407  git push
+  408  python3 Hello_world_chen.py
+  409  vi Hello_world_chen.c
+  410  git add -A
+  411  git commit -m "File now prints name and language"
+  412  git push
+  413  gcc Hello_world_chen.c -o Hello_world_chen.x
+  414  ./Hello_world_chen.x
+  415  git add -A
+  416  git commit -m "Name and language on executable"
+  417  git push
+  418  ./Hello_world_chen.x > output_c.txt
+  419  python3 Hello_world_chen.py > output_py.txt
+  420  git status
+  421  git add -A
+  422  git commit -m "Generated outputs for C and python code"
+  423  git push
+  424  history > history.txt

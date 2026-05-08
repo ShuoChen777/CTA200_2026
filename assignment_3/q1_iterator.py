@@ -26,7 +26,7 @@ def complex_iterate(x, y, maxiter=30):
     z = 0
     for iter in range(maxiter):
         z = (z ** 2) + c
-        if abs(z) > 4:
+        if z ** 2 > 8:
             return (iter + 1)
     
     return -1
